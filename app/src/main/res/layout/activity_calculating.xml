@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="horizontal"
     tools:context=".CalculatingActivity"
-    tools:showIn="@layout/activity_calculating">
+   >
 
 
     <Space
@@ -43,12 +43,30 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:textSize="25dp"
+            android:gravity="center"
             android:text="" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textSize="25dp"
+            android:text="" />
+
+            <Space
+                android:id="@+id/spacegone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"/>
+
     </LinearLayout>
 
     <Space
