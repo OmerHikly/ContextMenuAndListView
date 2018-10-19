@@ -123,7 +123,7 @@ public class CalculatingActivity extends Activity implements   AdapterView.OnIte
 
             }
         }
-
+//
     }
 
 
